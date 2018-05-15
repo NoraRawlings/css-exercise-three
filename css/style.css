@@ -17,12 +17,12 @@ nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
-  width: 800px;
+  width: 100%;
 }
 
 .restaurant-list {
   padding-top: 50px;
-  width: 70%;
+  width: 100%;
 }
 
 .content h1{
@@ -42,6 +42,12 @@ nav {
   background-color: #A9A9A9;
 }
 
+.content {
+  float: left;
+  width: 95%;
+}
+
 .arrow {
   float: right;
+  width: 5%;
 }
